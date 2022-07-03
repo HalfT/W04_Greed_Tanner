@@ -1,0 +1,100 @@
+Classes:
+    Director
+    Keyboard Service
+    Video Service
+    Colour
+    Point
+    Actor
+    Gems and Rocks (Actor)
+    Cast
+
+    Director:
+        Attributes:
+            Keyboard Service
+            Video Service
+        Methods:
+            Start
+            Inputs
+            Updates
+            Outputs
+
+    Keyboard Service:
+        Attributes:
+            Cell Size
+        Methods:
+            Get Direction
+
+    Video Service:
+        Attributes:
+            Caption
+            Width
+            Height
+            Cell Size
+            Frame Rate
+            Debug
+        Methods:
+            Close Window
+            Clear Buffer
+            Draw Actor
+            Draw Actors
+            Flush Buffer
+            Get Size
+            Get Height
+            Get Width
+            Open Window
+            Draw Grid
+
+    Colour:
+        Attributes:
+            Red
+            Green
+            Blue
+            Alpha
+        Methods:
+            To Tuple
+
+    Point:
+        Attributes:
+            X
+            Y
+        Methods:
+            Add
+            Equals
+            Get X
+            Get Y
+            Scale
+
+    Actor:
+        Attributes:
+            Text
+            Font Size
+            Colour
+            Position
+            Velocity
+        Methods:
+            Get Colour
+            Get Font Size
+            Get Position
+            Get Text
+            Get Velocity
+            Move Next
+            Set Colour
+            Set Font Size
+            Set Position
+            Set Text
+            Set Velocity
+
+    Gems:
+        Methods:
+            Add Points
+            Subtract Points
+
+    Cast:
+        Attributes:
+            Actors
+        Methods:
+            Add Actor
+            Get Actor
+            Get All Actors
+            Get First Actor
+            Remove Actor
